@@ -1,5 +1,5 @@
-chown root bin/intel64/speedo-meter
-chown root bin/mic/speedo-meter
-chmod u+s bin/intel64/speedo-meter
-chmod u+s bin/mic/speedo-meter
+chown root bin/intel64/speedometer.bin
+chown root bin/mic/speedometer.bin
+chmod u+s bin/intel64/speedometer.bin
+chmod u+s bin/mic/speedometer.bin
 
