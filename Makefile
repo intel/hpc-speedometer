@@ -41,7 +41,7 @@ $(TARGETDIR)/%.o: $(TARGETDIR)/%.c
 	$(CC) $(CFLAGS) -c -o $@ $(DEFINES) $(INCLUDES) $<
 
 $(TARGETDIR)/%.o: %.cpp
-	$(CXX) $(CFLAGS) -c -o $@ $(DEFINES) $(INCLUDES) $<
+	$(CXX) $(CXXFLAGS) -c -o $@ $(DEFINES) $(INCLUDES) $<
 
 $(TARGETDIR)/%.o: %.S
 	$(CC) $(CFLAGS) -c -o $@ $(DEFINES) $(INCLUDES) $<
