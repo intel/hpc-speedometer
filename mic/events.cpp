@@ -24,7 +24,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 #include <unistd.h>
 #include <err.h>
 #include <sys/resource.h>
-#include <assert.h>`
+#include <assert.h>
 #include <immintrin.h>
 
 #include "perf_utils.h"
